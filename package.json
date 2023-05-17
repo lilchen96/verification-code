@@ -1,0 +1,21 @@
+{
+  "name": "verification-code",
+  "version": "1.0.0",
+  "description": "验证码",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env TS_NODE_PROJECT='tsconfig.node.json' ts-node ./build/build.ts",
+    "build:watch": "cross-env TS_NODE_PROJECT='tsconfig.node.json' ts-node ./build/build.ts --watch",
+    "demo": "cross-env TS_NODE_PROJECT='tsconfig.node.json' ts-node ./build/demo.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.1.5",
+    "cross-env": "^7.0.3",
+    "http-server": "^14.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
