@@ -2,7 +2,6 @@
   "name": "verification-code",
   "version": "1.0.0",
   "description": "验证码",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "cross-env TS_NODE_PROJECT='tsconfig.node.json' ts-node ./build/build.ts",

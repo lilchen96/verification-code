@@ -49,7 +49,7 @@ export async function build(watch = false) {
     fs.mkdirSync(distPath);
   }
   if (watch) {
-    await generateHtml();
+    await generateHtml();  
   }
   await buildJS(watch);
 }
